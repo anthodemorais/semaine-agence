@@ -9,12 +9,18 @@ header
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    box-shadow: 0px 0px 5px 0px black;
+}
+
+header div
+{
+    display: flex;
+    align-items: center;
 }
 
 h1
 {
     margin-left: 50px;
+    margin-right: 100px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -26,7 +32,7 @@ ul
 
 li
 {
-    margin-right: 30px;
+    margin-right: 50px;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -38,4 +44,10 @@ li:last-of-type
 li:hover
 {
     cursor: pointer;
+}
+
+button
+{
+    margin-right: 100px;
+    padding: 10px;
 }
