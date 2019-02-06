@@ -30,6 +30,8 @@ h1
 p
 {
     margin: 0;
+    line-height: 22px;
+    margin-right: 10px;
 }
 
 .logo
@@ -50,8 +52,9 @@ li
 {
     margin-right: 35px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: bolder;
     padding: 5px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 li:first-of-type
@@ -84,5 +87,10 @@ li:hover
     position: fixed;
     bottom: 0px;
     left: 0px;
+    z-index: 1;
+}
+
+canvas
+{
     z-index: 1;
 }
