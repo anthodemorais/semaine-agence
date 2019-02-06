@@ -100,6 +100,32 @@ button:focus
     right: 0px;
 }
 
+.fifthPres
+{
+    width: 270px;
+    transition: top 1s linear;
+    text-align: left;
+    position: absolute;
+    top: 860px;
+    left: 0px;
+}
+
+.sixthPres
+{
+    width: 270px;
+    transition: top 1s linear;
+    text-align: right;
+    position: absolute;
+    top: 860px;
+    right: 0px;
+}
+
+.title
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
 .scroll
 {
     margin-top: 70px;

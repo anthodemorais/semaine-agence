@@ -43,7 +43,7 @@ p
 {
     width: 50px;
     margin-left: 70px;
-    margin-right: 100px;
+    margin-right: 230px;
     margin-top: 30px;
 }
 
@@ -117,3 +117,5 @@ canvas
     z-index: 1;
     transition: 3s;
 }
+
+/* MQ : 1120, 
