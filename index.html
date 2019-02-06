@@ -7,13 +7,14 @@
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="header.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
     <script src="index.js"></script>
     <script src="chatbot.js"></script>
 </head>
 <body>
     <header>
         <div class="menu">
-            <img src="../drive-download-20190204T080012Z-001/Logo_ministere_culture.png" alt="logo ministère de la culture" class="logo" />
+            <img src="./images/drive-download-20190204T080012Z-001/Logo_ministere_culture.png" alt="logo ministère de la culture" class="logo" />
             <ul>
                 <li>Accueil</li>
                 <li>À propos</li>
@@ -33,11 +34,13 @@
             </p>
         </div>
         <div class="illustration">
-            <img src="illustration.png" alt="panier de basket" />
+            <img src="./images/" alt="panier de basket" />
         </div>
     </div>
 
-    <img src="deco1.png" alt="décoration vague" class="deco1" />
-    <img src="deco2.png" alt="décoration vague" class="deco2" />
+    <img src="./images/deco1.png" alt="décoration vague" class="deco1" />
+    <canvas id="canvas" style="width: 600px; height: 430px; position: fixed; top: -100px; right: -35px; display:block; transform: rotate(25deg);"></canvas>
+    <script src="waves.js"></script>
+    <div style="position: fixed; top: 0px; right: 0px; height: 80px; width: 150px; background-color: #f6bc5b;"></div>
 </body>
 </html>
