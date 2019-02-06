@@ -78,11 +78,11 @@ li:hover
     z-index: 1;
 }
 
-.deco2
+.deco1_2
 {
-    width: 500px;
+    width: 320px;
     position: fixed;
-    top: 0px;
-    right: 0px;
+    bottom: 0px;
+    left: 0px;
     z-index: 1;
 }
