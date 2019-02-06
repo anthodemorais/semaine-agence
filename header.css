@@ -92,5 +92,12 @@ li:hover
 
 canvas
 {
+    width: 600px;
+    height: 430px;
+    position: fixed;
+    top: -105px;
+    right: -35px;
+    display:block;
+    transform: rotate(25deg);
     z-index: 1;
 }
