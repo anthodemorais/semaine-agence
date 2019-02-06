@@ -63,13 +63,41 @@ button:focus
 
 .firstPres
 {
-    width: 200px;
+    width: 270px;
+    transition: top 0.5s linear;
+    position: absolute;
+    top: 70px;
+    left: 0px;
 }
 
 .secondPres
 {
-    width: 200px;
+    width: 270px;
+    transition: top 1s linear;
     text-align: right;
+    position: absolute;
+    top: 250px;
+    right: 0px;
+}
+
+.thirdPres
+{
+    width: 270px;
+    transition: top 1s linear;
+    text-align: left;
+    position: absolute;
+    top: 630px;
+    left: 0px;
+}
+
+.forthPres
+{
+    width: 270px;
+    transition: top 1s linear;
+    text-align: right;
+    position: absolute;
+    top: 860px;
+    right: 0px;
 }
 
 .scroll
@@ -82,16 +110,18 @@ button:focus
 
 .appPresentation
 {
+    position: relative;
     display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 70px;
+    padding-top: 100px;
     width: 60%;
-    margin: auto;
+    height: 370px;
+    margin-top: 30px;
     background-color: rgba(246, 188, 91, 0.3);
     border-radius: 15px;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .appPresentation div
@@ -99,6 +129,13 @@ button:focus
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.scrollImage
+{
+    width: 30px;
+    position: absolute;
+    top: 435px;
 }
 
 .iphone
