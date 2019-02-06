@@ -1,0 +1,27 @@
+button
+{
+    margin-right: 100px;
+    padding: 10px;
+    z-index: 2;
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.center
+{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    width: 50%;
+    margin-top: 20vh;
+}
+
+.center div
+{
+    width: 50%;
+}
