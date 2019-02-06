@@ -69,20 +69,6 @@ li:hover
     cursor: pointer;
 }
 
-button
-{
-    margin-right: 100px;
-    padding: 10px;
-    z-index: 2;
-    background-color: transparent;
-    border: 0;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    cursor: pointer;
-}
-
 .deco1
 {
     width: 500px;
@@ -99,18 +85,4 @@ button
     top: 0px;
     right: 0px;
     z-index: 1;
-}
-
-.center
-{
-    display: flex;
-    align-self: center;
-    justify-self: center;
-    width: 50%;
-    margin-top: 20vh;
-}
-
-.center div
-{
-    width: 50%;
 }
