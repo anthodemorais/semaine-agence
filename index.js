@@ -51,6 +51,7 @@ document.addEventListener("DOMContentLoaded", () =>
             document.querySelector(".appPresentation").style.display = "flex";
             document.querySelector(".scroll").style.display = "flex";
             document.querySelector(".deco2").style.display = "block";
+            document.querySelector(".iphone").style.display = "block";
 
             console.log(window.innerWidth);
 

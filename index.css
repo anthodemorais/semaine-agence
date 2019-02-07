@@ -86,7 +86,7 @@ button:focus
     transition: top 1s linear;
     text-align: left;
     position: absolute;
-    top: 630px;
+    top: 930px;
     left: 0px;
 }
 
@@ -96,7 +96,7 @@ button:focus
     transition: top 1s linear;
     text-align: right;
     position: absolute;
-    top: 860px;
+    top: 660px;
     right: 0px;
 }
 
@@ -106,7 +106,7 @@ button:focus
     transition: top 1s linear;
     text-align: left;
     position: absolute;
-    top: 860px;
+    top: 1160px;
     left: 0px;
 }
 
@@ -116,7 +116,8 @@ button:focus
     transition: top 1s linear;
     text-align: right;
     position: absolute;
-    top: 860px;
+    top: 1460px;
+    margin-bottom: 70px;
     right: 0px;
 }
 
@@ -147,7 +148,8 @@ button:focus
     margin-top: 30px;
     background-color: rgba(246, 188, 91, 0.3);
     border-radius: 15px;
-    overflow: scroll;
+    overflow-y: scroll;
+    z-index: 2;
 }
 
 .appPresentation div
@@ -166,8 +168,11 @@ button:focus
 
 .iphone
 {
-    display: block;
+    position: absolute;
+    display: none;
     width: 200px;
+    top: 150px;
+    z-index: 3;
 }
 
 @media screen and (max-width: 940px)
@@ -183,6 +188,11 @@ button:focus
     .secondPres
     {
         top: 150px;
+    }
+
+    .iphone
+    {
+        top: 200px;
     }
 }
 
@@ -235,6 +245,7 @@ button:focus
 {
     .iphone
     {
+        top: 250px;
         width: 100px;
     }
 
@@ -280,6 +291,11 @@ button:focus
     .secondPres
     {
         top: 350px;
+    }
+
+    .iphone
+    {
+        top: 280px;
     }
 }
 
@@ -347,5 +363,10 @@ button:focus
     .scrollImage
     {
         top: 485px;
+    }
+
+    .iphone
+    {
+        top: 290px;
     }
 }
