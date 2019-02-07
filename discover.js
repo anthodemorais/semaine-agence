@@ -11,15 +11,15 @@ document.addEventListener("DOMContentLoaded", () =>
         {
             if (counter % 2 == 0)
             {
-                texts[counter].style.top = "-200px";
-                texts[counter+1].style.top = "-200px";
+                texts[counter].style.top = "-255px";
+                texts[counter+1].style.top = "-255px";
                 texts[counter+2].style.top = "250px";
                 texts[counter+3].style.top = "70px";
             }
             else
             {
-                texts[counter+1].style.top = "-200px";
-                texts[counter+2].style.top = "-200px";
+                texts[counter+1].style.top = "-255px";
+                texts[counter+2].style.top = "-255px";
                 texts[counter+3].style.top = "70px";
                 texts[counter+4].style.top = "250px";
             }

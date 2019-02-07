@@ -63,7 +63,7 @@ button:focus
 
 .firstPres
 {
-    width: 270px;
+    width: 30%;
     transition: top 0.5s linear;
     position: absolute;
     top: 70px;
@@ -72,7 +72,7 @@ button:focus
 
 .secondPres
 {
-    width: 270px;
+    width: 30%;
     transition: top 1s linear;
     text-align: right;
     position: absolute;
@@ -82,7 +82,7 @@ button:focus
 
 .thirdPres
 {
-    width: 270px;
+    width: 30%;
     transition: top 1s linear;
     text-align: left;
     position: absolute;
@@ -92,7 +92,7 @@ button:focus
 
 .forthPres
 {
-    width: 270px;
+    width: 30%;
     transition: top 1s linear;
     text-align: right;
     position: absolute;
@@ -102,7 +102,7 @@ button:focus
 
 .fifthPres
 {
-    width: 270px;
+    width: 30%;
     transition: top 1s linear;
     text-align: left;
     position: absolute;
@@ -112,7 +112,7 @@ button:focus
 
 .sixthPres
 {
-    width: 270px;
+    width: 30%;
     transition: top 1s linear;
     text-align: right;
     position: absolute;
@@ -170,11 +170,32 @@ button:focus
     width: 200px;
 }
 
-@media screen and (max-width: 920px)
+@media screen and (max-width: 930px)
 {
     .center
     {
         width: 100%;
+    }
+
+    .presText
+    {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 750px)
+{
+    .appPresentation
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 678px)
+{
+    .secondPres
+    {
+        top: 150px;
     }
 }
 
@@ -183,6 +204,19 @@ button:focus
     button
     {
         font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 470px)
+{
+    .iphone
+    {
+        width: 100px;
+    }
+
+    .presText
+    {
+        line-height: 15px;
     }
 }
 
@@ -206,9 +240,22 @@ button:focus
         margin-top: 30px;
     }
 
-    p
+    .intro p
     {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 440px)
+{
+    .presText
+    {
+        width: 80%;
+    }
+
+    .secondPres
+    {
+        top: 350px;
     }
 }
 
@@ -232,10 +279,49 @@ button:focus
     }
 }
 
+@media screen and (max-width: 320px)
+{
+    .appPresentation
+    {
+        height: 400px;
+    }
+
+    .scrollImage
+    {
+        top: 465px;
+    }
+}
+
 @media screen and (max-width: 300px)
 {
     .center div img
     {
         width: 200px;
+    }
+}
+
+@media screen and (max-width: 280px)
+{
+    .intro p
+    {
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 240px)
+{
+    .appPresentation
+    {
+        height: 420px;
+    }
+
+    .secondPres
+    {
+        top: 360px;
+    }
+
+    .scrollImage
+    {
+        top: 485px;
     }
 }

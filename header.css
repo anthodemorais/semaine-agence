@@ -127,7 +127,7 @@ canvas
     z-index: 2;
 }
 
-/* MQ : 1120, 920, 725, 546, 460, 385, 300, 278*/
+/* MQ : 1120, 920, 725, 546, 460, 385, 300, 278, 750, 678, 470, 440, 320, 240, 280*/
 
 @media screen and (max-width: 1120px)
 {
@@ -147,7 +147,7 @@ canvas
     }
 }
 
-@media screen and (max-width: 920px)
+@media screen and (max-width: 930px)
 {
     .deco1
     {
@@ -211,5 +211,14 @@ canvas
     header
     {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 280px)
+{
+    .logo
+    {
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }

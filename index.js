@@ -10,11 +10,11 @@ document.addEventListener("DOMContentLoaded", () =>
         var wavesScript = document.querySelector('#wavesScript');
         wavesScript.parentElement.removeChild(wavesScript);
 
-        masque.style.transition = "1.5s";
+        masque.style.transition = "2s";
         masque.style.top = "-630px";
         masque.style.right = "-500px";
-        masque.style.width = "250%";
-        masque.style.height = "200%";
+        masque.style.width = "4000px";
+        masque.style.height = "1500px";
 
         document.querySelector("button").style.display = "none";
 
