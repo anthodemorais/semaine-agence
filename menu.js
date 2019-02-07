@@ -5,11 +5,11 @@ document.addEventListener("DOMContentLoaded", () =>
 
     function deroule()
     {
-        if (window.innerWidth <= 725 && isOnApp == true)
+        if (window.innerWidth <= 1120 && isOnApp == true)
         {
             oldIcon = "./images/menu.png";
         }
-        else if (window.innerWidth <= 725 && isOnApp == false)
+        else if (window.innerWidth <= 1120 && isOnApp == false)
         {
             oldIcon = "./images/menuBlanc.png";
         }

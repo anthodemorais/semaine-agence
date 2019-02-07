@@ -30,6 +30,20 @@ h1
     font-family: 'Montserrat', sans-serif;
 }
 
+a
+{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: black;
+}
+
 p
 {
     margin: 0;
@@ -40,9 +54,9 @@ p
 
 .logo
 {
-    width: 50px;
-    margin-left: 110px;
-    margin-right: 190px;
+    width: 150px;
+    margin-left: 150px;
+    margin-right: 90px;
     margin-top: 30px;
 }
 
@@ -54,11 +68,11 @@ ul
 
 li
 {
-    margin-right: 35px;
     text-transform: uppercase;
     font-weight: bolder;
-    padding: 5px;
     font-family: 'Montserrat', sans-serif;
+    margin-right: 35px;
+    padding: 5px;
     z-index: 2;
 }
 
@@ -229,6 +243,14 @@ canvas
     }
 }
 
+@media screen and (max-width: 485px)
+{
+    .deco2
+    {
+        display: none !important;
+    }
+}
+
 @media screen and (max-width: 385px)
 {
     canvas
@@ -247,7 +269,7 @@ canvas
 {
     .logo
     {
-        margin-left: 0px;
+        margin-left: 80px;
         margin-right: 0px;
     }
 }
