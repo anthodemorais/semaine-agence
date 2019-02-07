@@ -170,6 +170,22 @@ button:focus
     width: 200px;
 }
 
+@media screen and (max-width: 940px)
+{
+    .iphone
+    {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 940px)
+{
+    .secondPres
+    {
+        top: 150px;
+    }
+}
+
 @media screen and (max-width: 930px)
 {
     .center
@@ -180,6 +196,14 @@ button:focus
     .presText
     {
         width: 25%;
+    }
+}
+
+@media screen and (max-width: 843px)
+{
+    .presText
+    {
+        font-size: 13px;
     }
 }
 

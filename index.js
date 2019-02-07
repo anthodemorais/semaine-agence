@@ -1,5 +1,10 @@
 document.addEventListener("DOMContentLoaded", () =>
 {
+    if (window.innerWidth <= 725)
+    {
+        document.querySelector(".menuIcon").src = "./images/menuBlanc.png";
+    }
+
     var canvas = document.querySelector("canvas");
     var discover = document.querySelector("button");
 
@@ -35,6 +40,13 @@ document.addEventListener("DOMContentLoaded", () =>
             document.querySelector(".appPresentation").style.display = "flex";
             document.querySelector(".scroll").style.display = "flex";
             document.querySelector(".deco2").style.display = "block";
+
+            console.log(window.innerWidth);
+
+            if (window.innerWidth <= 725)
+            {
+                document.querySelector(".menuIcon").src = "./images/menu.png";
+            }
         }, 2500);
     });
 });
