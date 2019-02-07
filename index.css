@@ -299,7 +299,7 @@ button:focus
     }
 }
 
-@media screen and (max-width: 385px)
+@media screen and (max-width: 480px)
 {
     .center
     {

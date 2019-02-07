@@ -205,7 +205,6 @@ canvas
     .logo
     {
         z-index: 2;
-        background-color: white;
     }
 
     canvas
@@ -251,7 +250,7 @@ canvas
     }
 }
 
-@media screen and (max-width: 385px)
+@media screen and (max-width: 480px)
 {
     canvas
     {
