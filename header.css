@@ -124,7 +124,33 @@ canvas
     position: fixed;
     left: 10px;
     cursor: pointer;
-    z-index: 2;
+    z-index: 6;
+}
+
+.menuDeroulant
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    width: 200px;
+    height: 250px;
+    display: none;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 0px grey;
+    background-color: white;
+}
+
+.menuDeroulant ul
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.menuDeroulant li
+{
+    margin-top: 30px;
+    margin-right: 0px;
 }
 
 /* MQ : 1120, 920, 725, 546, 460, 385, 300, 278, 750, 678, 470, 440, 320, 240, 280, 940, 843 */

@@ -1,3 +1,5 @@
+var isOnApp = false;
+
 document.addEventListener("DOMContentLoaded", () =>
 {
     if (window.innerWidth <= 725)
@@ -12,8 +14,17 @@ document.addEventListener("DOMContentLoaded", () =>
 
     discover.addEventListener("click", () =>
     {
+        isOnApp = true;
+
         var wavesScript = document.querySelector('#wavesScript');
         wavesScript.parentElement.removeChild(wavesScript);
+
+        masque.style.transition = "0s";
+
+        if (window.innerWidth <= 725)
+        {
+            masque.style.transform = "rotate(0deg)";
+        }
 
         masque.style.transition = "2s";
         masque.style.top = "-630px";
