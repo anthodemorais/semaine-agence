@@ -175,6 +175,20 @@ button:focus
     z-index: 3;
 }
 
+.dl
+{
+    margin-top: 80px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dl img
+{
+    width: 100px;
+}
+
 @media screen and (max-width: 940px)
 {
     .iphone
