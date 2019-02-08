@@ -76,6 +76,11 @@ button
     font-family: 'Montserrat', sans-serif;
 }
 
+button:focus, input:focus, textarea:focus
+{
+    outline: 0;
+}
+
 input::placeholder
 {
     color: black;

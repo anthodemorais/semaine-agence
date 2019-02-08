@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () =>
 
         if (scrollPosition >= 0 && scrollPosition < 300)
         {
-            iphone.src = "./images/Design Camera 10.png"
+            iphone.src = "./images/gamification.png"
         }
         else if (scrollPosition >= 300 && scrollPosition < 600)
         {
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () =>
         }
         else if (scrollPosition >= 900)
         {
-            iphone.src = "./images/Design Camera 10.png"
+            iphone.src = "./images/selfart.png"
         }
     });
     /*var counter = 0;

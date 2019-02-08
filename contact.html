@@ -13,6 +13,8 @@
     <script> var isOnApp = true; </script>
     <script src="menu.js"></script>
     <script src="chatbot.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="contact.js"></script>
 </head>
 <body>
     <header>
@@ -37,10 +39,10 @@
     <div>
         <form>
             <strong>Nous contacter</strong>
-            <input type="text" placeholder="Nom" />
-            <input type="text" placeholder="Prénom" />
-            <input type="mail" placeholder="Mail" />
-            <textarea placeholder="Message"></textarea>
+            <input type="text" placeholder="Nom" class="nom" />
+            <input type="text" placeholder="Prénom" class="prenom" />
+            <input type="mail" placeholder="Mail" class="email" />
+            <textarea placeholder="Message" class="message"></textarea>
             <button type="submit">Envoyer</button>
         </form>
     </div>
